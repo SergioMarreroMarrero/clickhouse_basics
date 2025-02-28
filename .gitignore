@@ -1,0 +1,8 @@
+*zip
+.zip
+code_files
+*.pdf
+data
+
+.idea
+__pycache__
