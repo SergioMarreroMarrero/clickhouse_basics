@@ -42,3 +42,6 @@ WHERE name='a';
 
 SELECT *
 FROM SQL_EXAMPLES.salary_materialized_view;
+
+select *
+from

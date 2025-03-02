@@ -1,3 +1,6 @@
+select *
+FROM file('/var/lib/clickhouse/user_files/data/binance_btc_usd.csv',
+          'CSV', 'open Float64, high Float64, low Float64, close Float64, volume Float64, timestamp DateTime64(3, \'UTC\')' );
 
 -- SQL Functions
 
